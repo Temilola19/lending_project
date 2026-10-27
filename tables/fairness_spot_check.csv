@@ -1,0 +1,7 @@
+attribute,group,n,approval_rate_under_policy,actual_bad_rate
+age_band,<=25,190,0.421,0.421
+age_band,26-35,398,0.53,0.296
+age_band,36-50,299,0.605,0.237
+age_band,51+,113,0.619,0.274
+foreign_worker,no,37,0.703,0.108
+foreign_worker,yes,963,0.536,0.307

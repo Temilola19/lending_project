@@ -1,0 +1,849 @@
+{
+  "n_loans": 1000,
+  "missing_cells": 0,
+  "duplicates": 0,
+  "bad_rate": 0.3,
+  "avg_amount": 3271.0,
+  "avg_amount_good": 2985.0,
+  "avg_amount_bad": 3938.0,
+  "assumptions": {
+    "gain_on_good": 0.2,
+    "loss_on_bad": 0.5
+  },
+  "approve_all_profit": -172755.0,
+  "approve_all_profit_per_loan": -172.8,
+  "segments": {
+    "checking": {
+      "p_value": 1.2189020722893755e-26,
+      "table": [
+        {
+          "checking": "no checking account",
+          "loans": 394,
+          "bad_loans": 46,
+          "bad_rate": 0.1168,
+          "total_amount": 1234442,
+          "profit": 108854.0,
+          "share_of_loans": 0.394,
+          "share_of_bad_loans": 0.1533,
+          "profit_per_loan": 276.2792,
+          "bad_rate_vs_overall": 0.3892
+        },
+        {
+          "checking": "... >= 200 DM / salary assignments for at least 1 year",
+          "loans": 63,
+          "bad_loans": 14,
+          "bad_rate": 0.2222,
+          "total_amount": 137192,
+          "profit": 10526.4,
+          "share_of_loans": 0.063,
+          "share_of_bad_loans": 0.0467,
+          "profit_per_loan": 167.0857,
+          "bad_rate_vs_overall": 0.7407
+        },
+        {
+          "checking": "0 <= ... < 200 DM",
+          "loans": 269,
+          "bad_loans": 105,
+          "bad_rate": 0.3903,
+          "total_amount": 1029614,
+          "profit": -143551.5,
+          "share_of_loans": 0.269,
+          "share_of_bad_loans": 0.35,
+          "profit_per_loan": -533.6487,
+          "bad_rate_vs_overall": 1.3011
+        },
+        {
+          "checking": "... < 0 DM",
+          "loans": 274,
+          "bad_loans": 135,
+          "bad_rate": 0.4927,
+          "total_amount": 870010,
+          "profit": -148583.9,
+          "share_of_loans": 0.274,
+          "share_of_bad_loans": 0.45,
+          "profit_per_loan": -542.277,
+          "bad_rate_vs_overall": 1.6423
+        }
+      ]
+    },
+    "history": {
+      "p_value": 1.2791872956750962e-12,
+      "table": [
+        {
+          "history": "critical account/ other credits existing (not at this bank)",
+          "loans": 293,
+          "bad_loans": 50,
+          "bad_rate": 0.1706,
+          "total_amount": 904795,
+          "profit": 37636.1,
+          "share_of_loans": 0.293,
+          "share_of_bad_loans": 0.1667,
+          "profit_per_loan": 128.4509,
+          "bad_rate_vs_overall": 0.5688
+        },
+        {
+          "history": "delay in paying off in the past",
+          "loans": 88,
+          "bad_loans": 28,
+          "bad_rate": 0.3182,
+          "total_amount": 378629,
+          "profit": 300.8,
+          "share_of_loans": 0.088,
+          "share_of_bad_loans": 0.0933,
+          "profit_per_loan": 3.4182,
+          "bad_rate_vs_overall": 1.0606
+        },
+        {
+          "history": "existing credits paid back duly till now",
+          "loans": 530,
+          "bad_loans": 169,
+          "bad_rate": 0.3189,
+          "total_amount": 1611708,
+          "profit": -123124.4,
+          "share_of_loans": 0.53,
+          "share_of_bad_loans": 0.5633,
+          "profit_per_loan": -232.3102,
+          "bad_rate_vs_overall": 1.0629
+        },
+        {
+          "history": "all credits at this bank paid back duly",
+          "loans": 49,
+          "bad_loans": 28,
+          "bad_rate": 0.5714,
+          "total_amount": 163899,
+          "profit": -33303.7,
+          "share_of_loans": 0.049,
+          "share_of_bad_loans": 0.0933,
+          "profit_per_loan": -679.6673,
+          "bad_rate_vs_overall": 1.9048
+        },
+        {
+          "history": "no credits taken/ all credits paid back duly",
+          "loans": 40,
+          "bad_loans": 25,
+          "bad_rate": 0.625,
+          "total_amount": 212227,
+          "profit": -54263.8,
+          "share_of_loans": 0.04,
+          "share_of_bad_loans": 0.0833,
+          "profit_per_loan": -1356.595,
+          "bad_rate_vs_overall": 2.0833
+        }
+      ]
+    },
+    "purpose": {
+      "p_value": 0.00011574910079691586,
+      "table": [
+        {
+          "purpose": "retraining",
+          "loans": 9,
+          "bad_loans": 1,
+          "bad_rate": 0.1111,
+          "total_amount": 10853,
+          "profit": 1539.2,
+          "share_of_loans": 0.009,
+          "share_of_bad_loans": 0.0033,
+          "profit_per_loan": 171.0222,
+          "bad_rate_vs_overall": 0.3704
+        },
+        {
+          "purpose": "car (used)",
+          "loans": 103,
+          "bad_loans": 17,
+          "bad_rate": 0.165,
+          "total_amount": 553133,
+          "profit": 13119.4,
+          "share_of_loans": 0.103,
+          "share_of_bad_loans": 0.0567,
+          "profit_per_loan": 127.3728,
+          "bad_rate_vs_overall": 0.5502
+        },
+        {
+          "purpose": "radio/television",
+          "loans": 280,
+          "bad_loans": 62,
+          "bad_rate": 0.2214,
+          "total_amount": 696543,
+          "profit": 18647.5,
+          "share_of_loans": 0.28,
+          "share_of_bad_loans": 0.2067,
+          "profit_per_loan": 66.5982,
+          "bad_rate_vs_overall": 0.7381
+        },
+        {
+          "purpose": "furniture/equipment",
+          "loans": 181,
+          "bad_loans": 58,
+          "bad_rate": 0.3204,
+          "total_amount": 555125,
+          "profit": -36982.3,
+          "share_of_loans": 0.181,
+          "share_of_bad_loans": 0.1933,
+          "profit_per_loan": -204.3221,
+          "bad_rate_vs_overall": 1.0681
+        },
+        {
+          "purpose": "domestic appliances",
+          "loans": 12,
+          "bad_loans": 4,
+          "bad_rate": 0.3333,
+          "total_amount": 17976,
+          "profit": -803.6,
+          "share_of_loans": 0.012,
+          "share_of_bad_loans": 0.0133,
+          "profit_per_loan": -66.9667,
+          "bad_rate_vs_overall": 1.1111
+        },
+        {
+          "purpose": "business",
+          "loans": 97,
+          "bad_loans": 34,
+          "bad_rate": 0.3505,
+          "total_amount": 403330,
+          "profit": -53148.1,
+          "share_of_loans": 0.097,
+          "share_of_bad_loans": 0.1133,
+          "profit_per_loan": -547.9186,
+          "bad_rate_vs_overall": 1.1684
+        },
+        {
+          "purpose": "repairs",
+          "loans": 22,
+          "bad_loans": 8,
+          "bad_rate": 0.3636,
+          "total_amount": 60018,
+          "profit": -3626.7,
+          "share_of_loans": 0.022,
+          "share_of_bad_loans": 0.0267,
+          "profit_per_loan": -164.85,
+          "bad_rate_vs_overall": 1.2121
+        },
+        {
+          "purpose": "car (new)",
+          "loans": 234,
+          "bad_loans": 89,
+          "bad_rate": 0.3803,
+          "total_amount": 716748,
+          "profit": -72412.1,
+          "share_of_loans": 0.234,
+          "share_of_bad_loans": 0.2967,
+          "profit_per_loan": -309.4534,
+          "bad_rate_vs_overall": 1.2678
+        },
+        {
+          "purpose": "others",
+          "loans": 12,
+          "bad_loans": 5,
+          "bad_rate": 0.4167,
+          "total_amount": 98512,
+          "profit": -20778.6,
+          "share_of_loans": 0.012,
+          "share_of_bad_loans": 0.0167,
+          "profit_per_loan": -1731.55,
+          "bad_rate_vs_overall": 1.3889
+        },
+        {
+          "purpose": "education",
+          "loans": 50,
+          "bad_loans": 22,
+          "bad_rate": 0.44,
+          "total_amount": 159020,
+          "profit": -18309.7,
+          "share_of_loans": 0.05,
+          "share_of_bad_loans": 0.0733,
+          "profit_per_loan": -366.194,
+          "bad_rate_vs_overall": 1.4667
+        }
+      ]
+    },
+    "savings": {
+      "p_value": 2.761214238568249e-07,
+      "table": [
+        {
+          "savings": "... >= 1000 DM",
+          "loans": 48,
+          "bad_loans": 6,
+          "bad_rate": 0.125,
+          "total_amount": 123523,
+          "profit": 10573.0,
+          "share_of_loans": 0.048,
+          "share_of_bad_loans": 0.02,
+          "profit_per_loan": 220.2708,
+          "bad_rate_vs_overall": 0.4167
+        },
+        {
+          "savings": "500 <= ... < 1000 DM",
+          "loans": 63,
+          "bad_loans": 11,
+          "bad_rate": 0.1746,
+          "total_amount": 162043,
+          "profit": 8901.9,
+          "share_of_loans": 0.063,
+          "share_of_bad_loans": 0.0367,
+          "profit_per_loan": 141.3,
+          "bad_rate_vs_overall": 0.582
+        },
+        {
+          "savings": "unknown/ no savings account",
+          "loans": 183,
+          "bad_loans": 32,
+          "bad_rate": 0.1749,
+          "total_amount": 714873,
+          "profit": 45264.4,
+          "share_of_loans": 0.183,
+          "share_of_bad_loans": 0.1067,
+          "profit_per_loan": 247.3464,
+          "bad_rate_vs_overall": 0.5829
+        },
+        {
+          "savings": "100 <= ... < 500 DM",
+          "loans": 103,
+          "bad_loans": 34,
+          "bad_rate": 0.3301,
+          "total_amount": 348556,
+          "profit": -25654.7,
+          "share_of_loans": 0.103,
+          "share_of_bad_loans": 0.1133,
+          "profit_per_loan": -249.0748,
+          "bad_rate_vs_overall": 1.1003
+        },
+        {
+          "savings": "... < 100 DM",
+          "loans": 603,
+          "bad_loans": 217,
+          "bad_rate": 0.3599,
+          "total_amount": 1922263,
+          "profit": -211839.6,
+          "share_of_loans": 0.603,
+          "share_of_bad_loans": 0.7233,
+          "profit_per_loan": -351.3095,
+          "bad_rate_vs_overall": 1.1996
+        }
+      ]
+    },
+    "duration_band": {
+      "p_value": 1.3461616597913541e-08,
+      "table": [
+        {
+          "duration_band": "<=12m",
+          "loans": 359,
+          "bad_loans": 76,
+          "bad_rate": 0.2117,
+          "total_amount": 650308,
+          "profit": 22553.5,
+          "share_of_loans": 0.359,
+          "share_of_bad_loans": 0.2533,
+          "profit_per_loan": 62.8231,
+          "bad_rate_vs_overall": 0.7057
+        },
+        {
+          "duration_band": "13-24m",
+          "loans": 411,
+          "bad_loans": 122,
+          "bad_rate": 0.2968,
+          "total_amount": 1201643,
+          "profit": -21076.6,
+          "share_of_loans": 0.411,
+          "share_of_bad_loans": 0.4067,
+          "profit_per_loan": -51.2813,
+          "bad_rate_vs_overall": 0.9895
+        },
+        {
+          "duration_band": "25-36m",
+          "loans": 143,
+          "bad_loans": 57,
+          "bad_rate": 0.3986,
+          "total_amount": 754125,
+          "profit": -70591.3,
+          "share_of_loans": 0.143,
+          "share_of_bad_loans": 0.19,
+          "profit_per_loan": -493.6455,
+          "bad_rate_vs_overall": 1.3287
+        },
+        {
+          "duration_band": ">36m",
+          "loans": 87,
+          "bad_loans": 45,
+          "bad_rate": 0.5172,
+          "total_amount": 665182,
+          "profit": -103640.6,
+          "share_of_loans": 0.087,
+          "share_of_bad_loans": 0.15,
+          "profit_per_loan": -1191.2713,
+          "bad_rate_vs_overall": 1.7241
+        }
+      ]
+    },
+    "amount_band": {
+      "p_value": 5.0584761623452266e-06,
+      "table": [
+        {
+          "amount_band": "Q3",
+          "loans": 250,
+          "bad_loans": 56,
+          "bad_rate": 0.224,
+          "total_amount": 767305,
+          "profit": 33804.4,
+          "share_of_loans": 0.25,
+          "share_of_bad_loans": 0.1867,
+          "profit_per_loan": 135.2176,
+          "bad_rate_vs_overall": 0.7467
+        },
+        {
+          "amount_band": "Q2",
+          "loans": 250,
+          "bad_loans": 62,
+          "bad_rate": 0.248,
+          "total_amount": 447203,
+          "profit": 9740.7,
+          "share_of_loans": 0.25,
+          "share_of_bad_loans": 0.2067,
+          "profit_per_loan": 38.9628,
+          "bad_rate_vs_overall": 0.8267
+        },
+        {
+          "amount_band": "Q1 small",
+          "loans": 250,
+          "bad_loans": 77,
+          "bad_rate": 0.308,
+          "total_amount": 247290,
+          "profit": -4843.1,
+          "share_of_loans": 0.25,
+          "share_of_bad_loans": 0.2567,
+          "profit_per_loan": -19.3724,
+          "bad_rate_vs_overall": 1.0267
+        },
+        {
+          "amount_band": "Q4 large",
+          "loans": 250,
+          "bad_loans": 105,
+          "bad_rate": 0.42,
+          "total_amount": 1809460,
+          "profit": -211457.0,
+          "share_of_loans": 0.25,
+          "share_of_bad_loans": 0.35,
+          "profit_per_loan": -845.828,
+          "bad_rate_vs_overall": 1.4
+        }
+      ]
+    },
+    "employment": {
+      "p_value": 0.0010454523491402541,
+      "table": [
+        {
+          "employment": "4 <= ... < 7 years",
+          "loans": 174,
+          "bad_loans": 39,
+          "bad_rate": 0.2241,
+          "total_amount": 626695,
+          "profit": 15394.9,
+          "share_of_loans": 0.174,
+          "share_of_bad_loans": 0.13,
+          "profit_per_loan": 88.4764,
+          "bad_rate_vs_overall": 0.7471
+        },
+        {
+          "employment": "... >= 7 years",
+          "loans": 253,
+          "bad_loans": 64,
+          "bad_rate": 0.253,
+          "total_amount": 815830,
+          "profit": -35517.1,
+          "share_of_loans": 0.253,
+          "share_of_bad_loans": 0.2133,
+          "profit_per_loan": -140.3838,
+          "bad_rate_vs_overall": 0.8432
+        },
+        {
+          "employment": "1 <= ... < 4 years",
+          "loans": 339,
+          "bad_loans": 104,
+          "bad_rate": 0.3068,
+          "total_amount": 1059472,
+          "profit": -74071.0,
+          "share_of_loans": 0.339,
+          "share_of_bad_loans": 0.3467,
+          "profit_per_loan": -218.4985,
+          "bad_rate_vs_overall": 1.0226
+        },
+        {
+          "employment": "unemployed",
+          "loans": 62,
+          "bad_loans": 23,
+          "bad_rate": 0.371,
+          "total_amount": 261439,
+          "profit": -16255.5,
+          "share_of_loans": 0.062,
+          "share_of_bad_loans": 0.0767,
+          "profit_per_loan": -262.1855,
+          "bad_rate_vs_overall": 1.2366
+        },
+        {
+          "employment": "... < 1 year",
+          "loans": 172,
+          "bad_loans": 70,
+          "bad_rate": 0.407,
+          "total_amount": 507822,
+          "profit": -62306.3,
+          "share_of_loans": 0.172,
+          "share_of_bad_loans": 0.2333,
+          "profit_per_loan": -362.2459,
+          "bad_rate_vs_overall": 1.3566
+        }
+      ]
+    }
+  },
+  "model_auc": {
+    "Logistic regression (policy-safe features)": {
+      "mean": 0.78,
+      "sd": 0.022
+    },
+    "Gradient boosting (policy-safe features)": {
+      "mean": 0.772,
+      "sd": 0.027
+    },
+    "Logistic regression (+ age, sex/status, foreign worker)": {
+      "mean": 0.782,
+      "sd": 0.022
+    }
+  },
+  "drivers_up": [
+    {
+      "feature": "checking_... < 0 DM",
+      "coef": 0.699,
+      "odds_ratio": 2.011
+    },
+    {
+      "feature": "purpose_education",
+      "coef": 0.603,
+      "odds_ratio": 1.827
+    },
+    {
+      "feature": "purpose_car (new)",
+      "coef": 0.594,
+      "odds_ratio": 1.811
+    },
+    {
+      "feature": "history_all credits at this bank paid back duly",
+      "coef": 0.575,
+      "odds_ratio": 1.777
+    },
+    {
+      "feature": "savings_... < 100 DM",
+      "coef": 0.545,
+      "odds_ratio": 1.724
+    },
+    {
+      "feature": "history_no credits taken/ all credits paid back duly",
+      "coef": 0.414,
+      "odds_ratio": 1.512
+    }
+  ],
+  "drivers_down": [
+    {
+      "feature": "checking_no checking account",
+      "coef": -0.903,
+      "odds_ratio": 0.405
+    },
+    {
+      "feature": "history_critical account/ other credits existing (not at this bank)",
+      "coef": -0.8,
+      "odds_ratio": 0.449
+    },
+    {
+      "feature": "purpose_car (used)",
+      "coef": -0.773,
+      "odds_ratio": 0.461
+    },
+    {
+      "feature": "debtors_guarantor",
+      "coef": -0.632,
+      "odds_ratio": 0.532
+    },
+    {
+      "feature": "employment_4 <= ... < 7 years",
+      "coef": -0.519,
+      "odds_ratio": 0.595
+    },
+    {
+      "feature": "savings_... >= 1000 DM",
+      "coef": -0.469,
+      "odds_ratio": 0.626
+    }
+  ],
+  "policy_baseline": {
+    "approved": 1000,
+    "approval_rate": 1.0,
+    "bad_rate_approved": 0.3,
+    "profit": -172755.0,
+    "profit_per_approved": -172.755
+  },
+  "policy_best": {
+    "approved": 542.0,
+    "approval_rate": 0.542,
+    "bad_rate_approved": 0.1328,
+    "profit": 142731.7,
+    "profit_per_approved": 263.3426,
+    "threshold": 0.27
+  },
+  "policy_at_approval": {
+    "90%": {
+      "approved": 900.0,
+      "approval_rate": 0.9,
+      "bad_rate_approved": 0.2589,
+      "profit": -20647.5,
+      "profit_per_approved": -22.9417,
+      "threshold": 0.64
+    },
+    "80%": {
+      "approved": 801.0,
+      "approval_rate": 0.801,
+      "bad_rate_approved": 0.221,
+      "profit": 34947.4,
+      "profit_per_approved": 43.6297,
+      "threshold": 0.53
+    },
+    "70%": {
+      "approved": 699.0,
+      "approval_rate": 0.699,
+      "bad_rate_approved": 0.1903,
+      "profit": 86194.4,
+      "profit_per_approved": 123.311,
+      "threshold": 0.41
+    },
+    "60%": {
+      "approved": 608.0,
+      "approval_rate": 0.608,
+      "bad_rate_approved": 0.153,
+      "profit": 131236.9,
+      "profit_per_approved": 215.8502,
+      "threshold": 0.32
+    },
+    "50%": {
+      "approved": 497.0,
+      "approval_rate": 0.497,
+      "bad_rate_approved": 0.1247,
+      "profit": 133401.1,
+      "profit_per_approved": 268.4127,
+      "threshold": 0.23
+    }
+  },
+  "holdout_check": {
+    "uplift_per_applicant_mean": 297.9,
+    "uplift_p5": 232.5,
+    "uplift_p95": 367.2,
+    "share_of_repeats_better_than_approve_all": 1.0,
+    "approval_rate_mean": 0.53
+  },
+  "sensitivity": [
+    {
+      "gain": 0.15,
+      "loss": 0.4,
+      "best_threshold": 0.21,
+      "approval_rate": 0.463,
+      "profit_best": 102562,
+      "profit_approve_all": -159102
+    },
+    {
+      "gain": 0.15,
+      "loss": 0.5,
+      "best_threshold": 0.21,
+      "approval_rate": 0.463,
+      "profit_best": 87826,
+      "profit_approve_all": -277246
+    },
+    {
+      "gain": 0.15,
+      "loss": 0.6,
+      "best_threshold": 0.15,
+      "approval_rate": 0.349,
+      "profit_best": 77092,
+      "profit_approve_all": -395390
+    },
+    {
+      "gain": 0.2,
+      "loss": 0.4,
+      "best_threshold": 0.3,
+      "approval_rate": 0.576,
+      "profit_best": 166289,
+      "profit_approve_all": -54611
+    },
+    {
+      "gain": 0.2,
+      "loss": 0.5,
+      "best_threshold": 0.27,
+      "approval_rate": 0.542,
+      "profit_best": 142732,
+      "profit_approve_all": -172755
+    },
+    {
+      "gain": 0.2,
+      "loss": 0.6,
+      "best_threshold": 0.21,
+      "approval_rate": 0.463,
+      "profit_best": 126925,
+      "profit_approve_all": -290899
+    },
+    {
+      "gain": 0.25,
+      "loss": 0.4,
+      "best_threshold": 0.3,
+      "approval_rate": 0.576,
+      "profit_best": 232164,
+      "profit_approve_all": 49880
+    },
+    {
+      "gain": 0.25,
+      "loss": 0.5,
+      "best_threshold": 0.3,
+      "approval_rate": 0.576,
+      "profit_best": 207861,
+      "profit_approve_all": -68264
+    },
+    {
+      "gain": 0.25,
+      "loss": 0.6,
+      "best_threshold": 0.27,
+      "approval_rate": 0.542,
+      "profit_best": 183773,
+      "profit_approve_all": -186408
+    }
+  ],
+  "worst_segments": [
+    {
+      "dimension": "history",
+      "segment": "no credits taken/ all credits paid back duly",
+      "loans": 40,
+      "bad_rate": 0.625,
+      "profit_per_loan": -1356.595
+    },
+    {
+      "dimension": "duration_band",
+      "segment": ">36m",
+      "loans": 87,
+      "bad_rate": 0.517,
+      "profit_per_loan": -1191.271
+    },
+    {
+      "dimension": "amount_band",
+      "segment": "Q4 large",
+      "loans": 250,
+      "bad_rate": 0.42,
+      "profit_per_loan": -845.828
+    },
+    {
+      "dimension": "history",
+      "segment": "all credits at this bank paid back duly",
+      "loans": 49,
+      "bad_rate": 0.571,
+      "profit_per_loan": -679.667
+    },
+    {
+      "dimension": "purpose",
+      "segment": "business",
+      "loans": 97,
+      "bad_rate": 0.351,
+      "profit_per_loan": -547.919
+    },
+    {
+      "dimension": "checking",
+      "segment": "... < 0 DM",
+      "loans": 274,
+      "bad_rate": 0.493,
+      "profit_per_loan": -542.277
+    }
+  ],
+  "best_segments": [
+    {
+      "dimension": "checking",
+      "segment": "no checking account",
+      "loans": 394,
+      "bad_rate": 0.117,
+      "profit_per_loan": 276.279
+    },
+    {
+      "dimension": "savings",
+      "segment": "unknown/ no savings account",
+      "loans": 183,
+      "bad_rate": 0.175,
+      "profit_per_loan": 247.346
+    },
+    {
+      "dimension": "savings",
+      "segment": "... >= 1000 DM",
+      "loans": 48,
+      "bad_rate": 0.125,
+      "profit_per_loan": 220.271
+    },
+    {
+      "dimension": "checking",
+      "segment": "... >= 200 DM / salary assignments for at least 1 year",
+      "loans": 63,
+      "bad_rate": 0.222,
+      "profit_per_loan": 167.086
+    },
+    {
+      "dimension": "savings",
+      "segment": "500 <= ... < 1000 DM",
+      "loans": 63,
+      "bad_rate": 0.175,
+      "profit_per_loan": 141.3
+    },
+    {
+      "dimension": "amount_band",
+      "segment": "Q3",
+      "loans": 250,
+      "bad_rate": 0.224,
+      "profit_per_loan": 135.218
+    }
+  ],
+  "pilot_sample_sizes": {
+    "30% -> 25%": 1250,
+    "30% -> 20%": 292,
+    "25% -> 20%": 1092
+  },
+  "fairness": [
+    {
+      "attribute": "age_band",
+      "group": "<=25",
+      "n": 190,
+      "approval_rate_under_policy": 0.421,
+      "actual_bad_rate": 0.421
+    },
+    {
+      "attribute": "age_band",
+      "group": "26-35",
+      "n": 398,
+      "approval_rate_under_policy": 0.53,
+      "actual_bad_rate": 0.296
+    },
+    {
+      "attribute": "age_band",
+      "group": "36-50",
+      "n": 299,
+      "approval_rate_under_policy": 0.605,
+      "actual_bad_rate": 0.237
+    },
+    {
+      "attribute": "age_band",
+      "group": "51+",
+      "n": 113,
+      "approval_rate_under_policy": 0.619,
+      "actual_bad_rate": 0.274
+    },
+    {
+      "attribute": "foreign_worker",
+      "group": "no",
+      "n": 37,
+      "approval_rate_under_policy": 0.703,
+      "actual_bad_rate": 0.108
+    },
+    {
+      "attribute": "foreign_worker",
+      "group": "yes",
+      "n": 963,
+      "approval_rate_under_policy": 0.536,
+      "actual_bad_rate": 0.307
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+amount_band,loans,bad_loans,bad_rate,total_amount,profit,share_of_loans,share_of_bad_loans,profit_per_loan,bad_rate_vs_overall
+Q3,250,56,0.224,767305,33804.4,0.25,0.1867,135.2176,0.7467
+Q2,250,62,0.248,447203,9740.7,0.25,0.2067,38.9628,0.8267
+Q1 small,250,77,0.308,247290,-4843.1,0.25,0.2567,-19.3724,1.0267
+Q4 large,250,105,0.42,1809460,-211457.0,0.25,0.35,-845.828,1.4

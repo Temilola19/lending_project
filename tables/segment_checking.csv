@@ -1,0 +1,5 @@
+checking,loans,bad_loans,bad_rate,total_amount,profit,share_of_loans,share_of_bad_loans,profit_per_loan,bad_rate_vs_overall
+no checking account,394,46,0.1168,1234442,108854.0,0.394,0.1533,276.2792,0.3892
+... >= 200 DM / salary assignments for at least 1 year,63,14,0.2222,137192,10526.4,0.063,0.0467,167.0857,0.7407
+0 <= ... < 200 DM,269,105,0.3903,1029614,-143551.5,0.269,0.35,-533.6487,1.3011
+... < 0 DM,274,135,0.4927,870010,-148583.9,0.274,0.45,-542.277,1.6423

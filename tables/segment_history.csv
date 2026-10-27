@@ -1,0 +1,6 @@
+history,loans,bad_loans,bad_rate,total_amount,profit,share_of_loans,share_of_bad_loans,profit_per_loan,bad_rate_vs_overall
+critical account/ other credits existing (not at this bank),293,50,0.1706,904795,37636.1,0.293,0.1667,128.4509,0.5688
+delay in paying off in the past,88,28,0.3182,378629,300.8,0.088,0.0933,3.4182,1.0606
+existing credits paid back duly till now,530,169,0.3189,1611708,-123124.4,0.53,0.5633,-232.3102,1.0629
+all credits at this bank paid back duly,49,28,0.5714,163899,-33303.7,0.049,0.0933,-679.6673,1.9048
+no credits taken/ all credits paid back duly,40,25,0.625,212227,-54263.8,0.04,0.0833,-1356.595,2.0833
